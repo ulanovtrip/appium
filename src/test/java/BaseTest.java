@@ -18,6 +18,7 @@ public class BaseTest {
     @AfterClass
     public void closeSession() {
         DriverManager.closeDriver();
+        DriverManager.closeAppium();
         DriverManager.closeEmulator();
     }
 }
