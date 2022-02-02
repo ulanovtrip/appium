@@ -16,7 +16,7 @@ public class AddressConfigurator {
 
     private static final Logger LOG = LogManager.getRootLogger();
     private static final String ERROR_LOG_LEVEL = "error";
-    private static final String KILL_MODE_COMMAND = "taskkill /F /IM node.exe";
+    private static final String KILL_MODE_COMMAND = "sudo taskkill /F /IM node.exe";
     private static AppiumDriverLocalService appiumDriverLocalService;
 
     private AddressConfigurator() {
